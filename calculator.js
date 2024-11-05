@@ -5,7 +5,7 @@ function appendToDisplay(input) {
 }
 
 function exponent() {
-    display.value - value;
+    display.value -= input;
 }
 
 function clearDisplay() {
