@@ -4,10 +4,6 @@ function appendToDisplay(input) {
     display.value += input;
 }
 
-function exponent() {
-    display.value *= display.value;
-}
-
 function clearDisplay() {
     display.value = "";
 } 
