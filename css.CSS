@@ -9,6 +9,7 @@ body {
     background-size: 100%;
     zoom: 50%;
     elements: hidden;
+    max-height: 0;
 }
 
 div.scrollmenu {
