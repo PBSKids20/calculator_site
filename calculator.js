@@ -2,6 +2,14 @@ const display = document.getElementById("display");
 
 var bn = 1;
 
+function bnDown() {
+    bn = bn - 1;
+}
+
+function bnUp() {
+    bn = bn + 1;
+}
+                
 function background( {
     if (bn === 1) {
         firstBackground();
