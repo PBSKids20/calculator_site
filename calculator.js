@@ -1,5 +1,16 @@
-const display= document.getElementById("display");
+const display = document.getElementById("display");
 
+var bn = 1;
+
+function background( {
+    if (bn === 1) {
+        firstBackground();
+    }
+    if (bn === 2) {
+        secondBackground();
+    }
+}
+                    
 function appendToDisplay(input) {
     display.value += input;
 }
