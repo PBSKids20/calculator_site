@@ -15,7 +15,7 @@
         </style>
 </head>    
 <body>
-    <button id = "button1" type = "button" onclick = "reverseBackground()"><</button>
+    <button id = "button1" type = "button" onclick = "secondBackground()"><</button>
     <div id="calculator">
         <div class = "scrollmenu">
             <input id="display" readonly>
@@ -41,18 +41,18 @@
         </div>
     </div>
     
-    <button id = "button2" type="button" onclick="fowardBackground()">></button>
+    <button id = "button2" type="button" onclick="firstBackground()">></button>
     
     <script src = "calculator.js"></script>
 
     <script>
-        function reverseBackground() {
+        function firstBackground() {
             document.body.style.backgroundImage = "url('https://images.unsplash.com/photo-1476610182048-b716b8518aae?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8Nnx8fGVufDB8fHx8fA%3D%3D')"
         }
     </script>
 
    <script>
-        function fowardBackground() {
+        function secondBackground() {
             document.body.style.backgroundImage = "url('https://media.npr.org/assets/img/2017/11/14/istock-841380450-10497793df7907f7e19583a097fbc9af73462eb7.jpg?s=1100&c=85&f=jpeg')";      
         }
     </script>
